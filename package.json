@@ -1,0 +1,9 @@
+{
+  "name": "gerar-pdf",
+  "version": "1.0.0",
+  "description": "Estudos de como gerar arquivo em PDF com Node.js ",
+  "main": "index.js",
+  "repository": "https://github.com/MayronSouza/gerar-pdf.git",
+  "author": "Mayron Souza",
+  "license": "MIT"
+}
