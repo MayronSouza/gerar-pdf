@@ -5,5 +5,17 @@
   "main": "index.js",
   "repository": "https://github.com/MayronSouza/gerar-pdf.git",
   "author": "Mayron Souza",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --exit-child --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "html-pdf": "^3.0.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
 }
